@@ -1786,10 +1786,10 @@ display: flex;
 	background-color: #007bb5;
 	border-color: #007bb5;
 }
-.footer-social a.dribbble:hover{
+.footer-social a.instagram:hover{
 	color: #fff;
-	background-color: #ea4c89;
-	border-color: #ea4c89;
+	background-color: #c92591;
+	border-color: #c92591;
 }
 .footer-bottom{
 	display: inline;
@@ -1992,9 +1992,9 @@ display: flex;
 	background-color: #007bb5;
 	border-color: #007bb5;
 }
-.follow-us a.dribbble{	
-	background-color: #ea4c89;
-	border-color: #ea4c89;
+.follow-us a.instagram{	
+	background-color: #c92591;
+	border-color: #c92591;
 }
 .popular-post-widget{
 	border-top: 1px solid #d4d4d4;
