@@ -1079,13 +1079,12 @@ img{
 
 #portfolio-popup{
 	background-color: #fff;
-	bottom: 0;
 	display: none;
-	left: 0;
 	position: fixed;
-	right: 0;
-	text-align: center;
-	top: 0;
+	width:80vw;
+	height:80vh;
+	margin-top:10vh;
+	margin-left:10vw;
 	opacity: 0;
 	z-index: 99999;
 	overflow-y: scroll;
@@ -1098,8 +1097,6 @@ img{
 
 .portfolio-popup-area{
 	display: block;
-	float: left;
-	padding: 40px 15%;
 	width: 100%;
 }
 
@@ -1108,7 +1105,6 @@ img{
 }
 
 #portfolio-popup.portfolio-popup-show{
-	align-items: center;
 display: flex;
 }
 
@@ -1127,16 +1123,39 @@ display: flex;
 	margin-left: 0;
 }
 
-
+.project-information{
+	margin:auto;
+	width:70vw;
+	margin-top:5vh;
+}
 .portfolio-popup-inner img{
-	max-width: 80%;
+	max-width: 100%;
 }
 
 .portfolio-popup-inner h2{
 	color: #000;
-	margin-top: 15px;	
+	margin-top: 15px;
+	margin-bottom:5px;
+	font-size:50px;	
 }
 
+
+.project-information h3:first-of-type{
+	margin-top:0px;
+}
+.project-information h3:
+.project-information ul{
+	list-style-type: square;
+}
+.project-information ul li{
+	margin-left:40px;
+	font-size:18px;
+	text-transform: uppercase;
+}
+.project-links{
+	text-align:center;
+	margin-top:10px;
+}
 .modal-close-btn{
 	border: 2px solid #000;
 	border-radius: 50%;
@@ -1157,6 +1176,17 @@ display: flex;
 	width: 40px;
 }
 
+#overlay{
+	position:fixed;
+	z-index:1050;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	width:100vh
+	height:100vh;
+	background-color:rgba(0,0,0,0.6);
+}
 .modal-close-btn:hover,
 .modal-close-btn:focus{
 	color: #000;
@@ -1180,8 +1210,9 @@ display: flex;
 .view-project-btn:hover,
 .view-project-btn:focus{
 	border-color: #000;
-	color: #000;
+	color: #fff;
 	text-decoration: none;
+	background-color:#000;
 	
 }
 
@@ -1786,7 +1817,7 @@ display: flex;
 	background-color: #007bb5;
 	border-color: #007bb5;
 }
-.footer-social a.instagram:hover{
+.footer-social a.insta:hover{
 	color: #fff;
 	background-color: #c92591;
 	border-color: #c92591;
@@ -1992,7 +2023,7 @@ display: flex;
 	background-color: #007bb5;
 	border-color: #007bb5;
 }
-.follow-us a.instagram{	
+.follow-us a.insta{	
 	background-color: #c92591;
 	border-color: #c92591;
 }

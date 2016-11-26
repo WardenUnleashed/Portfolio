@@ -215,12 +215,13 @@ jQuery(function($){
 	
     jQuery('.portfolio-social-icon').on('click', function(event) {
       event.preventDefault();
+      $('body').append('<div id="overlay"></div>');
       $('#portfolio-popup').addClass("portfolio-popup-show");
       $('#portfolio-popup').animate({
 	      "opacity": 1
       },500);   
       var portfolio_detailscontent = $(this).parent(".single-item-content").find(".portfolio-detail").html();
-	  $(".portfolio-popup-inner").html(portfolio_detailscontent);     
+	  $(".portfolio-popup-inner").fadeIn().html(portfolio_detailscontent);     
 
     });  
            
@@ -232,6 +233,7 @@ jQuery(function($){
 		$('#portfolio-popup').animate({
 		      "opacity": 0
 	    },500);  
+	    $('#overlay').fadeOut().remove()
 
     });
     
