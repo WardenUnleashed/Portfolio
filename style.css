@@ -51,7 +51,7 @@ ul{
 }
 a{ 
 	text-decoration: none;
-	color: #2f2f2f;  
+	
 }
 a:focus{
 	outline: none;
@@ -339,7 +339,29 @@ img{
 .less-padding{
 	padding: 30px 20px !important;
 }
+.contact-form{
+	color:#fff;
+}
 
+.close{
+
+}
+.email-alert{
+	position:fixed;
+	top:90px;
+	left:50%;
+	-ms-transform: translateX(-50%); /* IE 9 */
+    -webkit-transform: translateX(-50%); /* Chrome, Safari, Opera */
+    transform: translateX(-50%);
+}
+
+.email-alert ul{
+	list-style-type:square;
+	margin-left:30px;
+}
+#email-alert p{
+	margin-right:20px;
+}
 .navbar-default .navbar-nav > li > a {
   color: #636363;
   -webkit-transition: all 0.5s;
@@ -1082,7 +1104,7 @@ img{
 	display: none;
 	position: fixed;
 	width:80vw;
-	height:80vh;
+	height:81vh;
 	margin-top:10vh;
 	margin-left:10vw;
 	opacity: 0;
@@ -1139,18 +1161,17 @@ display: flex;
 	font-size:50px;	
 }
 
-
 .project-information h3:first-of-type{
 	margin-top:0px;
 }
-.project-information h3:
-.project-information ul{
+
+.project-highlights{
 	list-style-type: square;
 }
-.project-information ul li{
+.project-highlights li{
 	margin-left:40px;
-	font-size:18px;
-	text-transform: uppercase;
+	font-size:16px;
+	
 }
 .project-links{
 	text-align:center;
@@ -1602,11 +1623,27 @@ display: flex;
 	margin-right: 3px;
 	padding: 4px 5px;
 }
+.blog-list{
+	list-style-type:square;
+	margin-left:40px;
+}
+.button-holder button{
+	margin:auto;
+	margin-bottom:10px;
+	float:none;
+}
 
-/*--------------------*/
+.blog-list li{
+	padding-bottom:10px;
+}
 /* CLIENT */
 /*--------------------*/
+.buttons{
+	width:411px;
+	clear:none;
+	margin:auto;
 
+}
 #client {
 	background-color: #fff;
 	display: inline;
@@ -1841,6 +1878,50 @@ display: flex;
 /* BLOG PAGE */
 /*--------------------*/
 
+img#headerbg { 
+    position:relative;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background: url('assets/images/esports-bgVid-poster.jpg') no-repeat;
+    background-size: cover; 
+}
+#project-title{
+	color:#fff;
+	font-size:80px;
+	text-transform:uppercase;
+	margin-bottom:30px;
+	font-weight:800;
+
+}
+.scroll-to-content{
+	position:absolute;
+	bottom:10px;
+	left:50%;
+	color:#fff;
+	size:36px;
+	 -ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+#project-subtitle{
+	margin-top:30px;
+	text-transform:uppercase;
+}
+#header-content{
+	position:absolute;
+	top:50%;
+	left:50%;
+	-ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    text-align:center;
+}
 
 #blog-banner{
 	display: inline;
@@ -2233,6 +2314,58 @@ display: flex;
 .comment-form.button-default::after,
 .comment-form .button-default > span {
   	padding: 12px 40px;  
+}
+
+.branding-examples .slick-prev,
+.branding-examples .slick-next {  
+	font-size: 0;
+	height: 20px;
+	line-height: 0;
+	margin-top: -5px;
+	padding: 0;
+	position: absolute;
+	top: 100%;
+	width: 20px;
+	z-index: 999;
+}
+.branding-examples .slick-prev {
+  	left: 25%;
+}
+.branding-examples .slick-next {
+  	right: 25%;
+}
+.branding-examples .slick-prev::before,
+.branding-examples .slick-next::before { 
+	font-family: "fontAwesome";
+	font-size: 28px;
+	line-height: 1;
+	opacity: 0.75;
+}
+.branding-examples .slick-prev::before{
+	content: '\f104';
+}
+.branding-examples .slick-next::before{
+	content: '\f105';
+}
+.branding-examples .slick-dots {
+  bottom: -22px;
+}
+.branding-examples .slick-dots li button {
+	background: #eeeeee none repeat scroll 0 0;
+	border: 0 none;
+	border-radius: 50%;
+	color: #eeeeee;
+	cursor: pointer;
+	display: block;
+	font-size: 0;
+	height: 15px;
+	line-height: 0;
+	outline: medium none;
+	padding: 5px;
+	width: 15px;
+}
+.branding-examples li button::before{
+ 	color: #eeeeee;  
 }
 
 /*--------------------*/

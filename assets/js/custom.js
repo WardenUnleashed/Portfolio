@@ -24,7 +24,6 @@
 
 jQuery(function($){
 
-
 	/* ----------------------------------------------------------- */
 	/*  1. HEADER CONTENT SLIDE (SLICK SLIDER)
 	/* ----------------------------------------------------------- */
@@ -214,14 +213,19 @@ jQuery(function($){
 	// WHEN CLICK PLAY BUTTON 
 	
     jQuery('.portfolio-social-icon').on('click', function(event) {
-      event.preventDefault();
-      $('body').append('<div id="overlay"></div>');
-      $('#portfolio-popup').addClass("portfolio-popup-show");
-      $('#portfolio-popup').animate({
-	      "opacity": 1
-      },500);   
-      var portfolio_detailscontent = $(this).parent(".single-item-content").find(".portfolio-detail").html();
-	  $(".portfolio-popup-inner").fadeIn().html(portfolio_detailscontent);     
+      if($(this).parent().hasClass('has-page')){
+	     var link =  $(this).parent(".single-item-content").find('.portfolio-social-icon .view-btn').attr('href');
+	    window.location.href = link
+	  } else {
+	  	 event.preventDefault();
+	      $('body').append('<div id="overlay"></div>');
+	      $('#portfolio-popup').addClass("portfolio-popup-show");
+	      $('#portfolio-popup').animate({
+		      "opacity": 1
+	      },500);   
+	      var portfolio_detailscontent = $(this).parent(".single-item-content").find(".portfolio-detail").html();
+		  $(".portfolio-popup-inner").fadeIn().html(portfolio_detailscontent);
+	  }
 
     });  
            
@@ -271,6 +275,15 @@ jQuery(function($){
 		slide: 'div',		
 		cssEase: 'linear'
 	});
+	jQuery('.branding-examples').slick({
+	  infinite: true,
+	  slidesToShow: 1,
+	  arrows: true,
+	  slide: 'div',
+	  cssEase: 'linear',
+	  autoplay: true,
+	  dots:true,
+	});
 
 	/* ----------------------------------------------------------- */
 	/*  12. WOW ANIMATION
@@ -287,4 +300,53 @@ jQuery(function($){
     );
     wow.init();
 
+	/* ----------------------------------------------------------- */
+	/*  13. Contact Form
+	/* ----------------------------------------------------------- */ 
+
+	jQuery('#contact-group').submit(function(event) {
+		jQuery('#contact-group .button').attr('disabled','disabled');
+        // get the form data
+        // there are many ways to get this data using jQuery (you can use the class or id also)
+        var formData = {
+            'name'		: $('input[name=name]').val(),
+            'email'		: $('input[name=email]').val(),
+            'message'	: $('textarea[name=message]').val(),
+            'human'		: $('input[name=human]').val(),
+        };
+        // process the form
+       $.ajax({
+            type        : 'POST', // define the type of HTTP verb we want to use (POST for our form)
+            url         : 'contact-form.php', // the url where we want to POST
+            data        : formData, // our data object
+            dataType    : 'json', // what type of data do we expect back from the server
+                        encode          : true
+        })
+            // using the done promise callback
+            .done(function(data) {
+
+                // log data to the console so we can see
+                // here we will handle errors and validation messages
+                if(data.success){
+                	jQuery('.email-alert').remove()
+                	jQuery('body').append(data.message).fadeIn();
+					jQuery('#email-success').on('closed.bs.alert', function () {
+						jQuery('#email-success').fadeOut();
+					});
+					;
+				} else if(!data.success){
+					jQuery('.email-alert').remove()
+					jQuery('body').append(data.errors).fadeIn();
+					jQuery('#email-failure').on('closed.bs.alert', function () {
+						jQuery('#email-failure').fadeOut();
+					});
+				}
+            });
+
+        // stop the form from submitting the normal way and refreshing the page
+        event.preventDefault();
+        setTimeout(function() {
+        	jQuery('#contact-group .button').removeAttr('disabled');
+    	},5000);
+    });
 });

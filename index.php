@@ -195,7 +195,7 @@
       <div class="container">
         <div class="call-to-content wow fadeInUp">
           <h2>"Washington eSports is the premiere eSports organization at University of Washington"</h2>
-          <a href="#" class="button button-default" data-text="CHECK IT"><span>LEARN MORE</span></a>
+          <a href="uw-esports.html" class="button button-default" data-text="CHECK IT"><span>LEARN MORE</span></a>
         </div>
       </div>
     </div> 
@@ -347,54 +347,21 @@
             <div class="portfolio-content">
                <!-- Portfolio container -->
                <div class="portfolio-container">
+                 
                  <div class="single-portfolio">
                    <div class="single-item">
-                     <img src="assets/images/portfolio-img-small1.jpg" alt="img">
-                     <div class="single-item-content">
-                        <div class="portfolio-social-icon">
-                          <a class="view-btn" href="#"><i class="fa fa-search-plus"></i></a>
-                        </div>
-                        <div class="portfolio-title">
-                          <h4>Washington eSports</h4>
-                        </div>
-                        <div class="portfolio-detail">
-	                        <a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
-	                        <div class="project-information">
-	                        	<h2>Washington eSports</h2>
-	                        	<div class="row">
-			                        <div class="col-md-6">
-			                        	<img src="assets/images/portfolio-img-big1.jpg" alt="img-1" />
-			                        </div>
-			                        <div class="col-md-6">
-				                        <h3>Summary</h3>
-				                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				                        <h3>Project Highlights</h3>
-				                        <div class="row">
-					                    	<div class="col-xs-6">
-					                    	    <ul>
-						                        	<li> Thing 1 lorem ipsum dolar</li>
-						                        	<li> THing 2 lorem</li>
-						                        	<li> Thing 3 lorem </li>
-					                       		</ul>
-					                       	</div>
-					                       	<div class="col-xs-6">
-					                 			<ul>
-						                        	<li> Thing 1 lorem ipsum dolar</li>
-						                        	<li> THing 2 lorem</li>
-						                        	<li> Thing 3 lorem </li>
-					                       		</ul>
-					                       	</div>
-				                        </div>
-			                        </div>
-			                    </div>
-			                    <div class="project-links">
-				                    <a href="#" class="view-project-btn">Learn More</a>
-				                </div>
-		                    </div>
-                        </div>
-                     </div>
-                   </div>
-                 </div>
+	                     <img src="assets/images/portfolio-img-small1.jpg" alt="img">
+	                     <div class="single-item-content has-page">
+	                        <div class="portfolio-social-icon">
+	                          <a class="view-btn" href="uw-esports.html"><i class="fa fa-search-plus"></i></a>
+	                        </div>
+	                        <div class="portfolio-title">
+	                          <h4>Washington eSports</h4>
+	                        </div>
+	                 	</div>
+                	</div>
+                </div>
+               
                  <div class="single-portfolio">
                    <div class="single-item">
                      <img src="assets/images/portfolio-img-small2.jpg" alt="img">
@@ -604,7 +571,7 @@
             </address>
              <address class="single-address">
               <h4>Phone</h4>
-              <p>(425) 591 9764</p>
+              <p>(425).591.9764</p>
             </address>
              <address class="single-address">
               <h4>Battle.net</h4>
@@ -615,26 +582,32 @@
             	<p>Ward&euml;n
           </div>
         </div>
+
         <div class="col-md-8 col-sm-6 col-xs-12">
           <div class="contact-right wow fadeInRight">
             <h2>Send a message</h2>
-            <form action="" class="contact-form">
-              <div class="form-group">                
-                <input type="text" class="form-control" placeholder="Name">
+            <form class="contact-form" id="contact-group">
+              <div class="form-group" id="name-group">                
+                <input type="text" class="form-control" placeholder="Name" name="name">
               </div>
-              <div class="form-group">                
-                <input type="email" class="form-control" placeholder="Enter Email">
+              <div class="form-group" id="email-group">                
+                <input type="email" class="form-control" placeholder="Enter Email" name="email">
               </div>              
-              <div class="form-group">
-                <textarea class="form-control"></textarea>
+              <div class="form-group" id="message-group">
+                <textarea class="form-control" name="message"></textarea>
               </div>
-              <button type="submit" data-text="SUBMIT" class="button button-default"><span>SUBMIT</span></button>
+              <div class="form-group" id="human-group">
+              <p>What is 2+2?</p>
+             	 <input name="human" placeholder="Type Here" class="form-control">
+              </div>
+              <button type="submit" data-text="SUBMIT" class="button button-default" name="submit"><span>SUBMIT</span></button>
             </form>
           </div>
         </div>
       </div>
     </div>
   </section>
+
   <!-- End Contact section -->
 
   <!-- Start Footer -->    
@@ -657,9 +630,6 @@
         </div>
       </div>
     </div>
-    <div class="footer-bottom">
-      <p>Designed by <a rel="nofollow" href="http://www.markups.io/">MarkUps.io</a></p>
-    </div>
   </footer>
   <!-- End Footer -->
 
@@ -675,7 +645,7 @@
   <script type="text/javascript" src="assets/js/jquery.counterup.js"></script>
   <!-- Wow animation -->
   <script type="text/javascript" src="assets/js/wow.js"></script> 
-
+  <script type="text/javascript" src="assets/js/jquery.debounce.js"></script>
   <!-- Custom js -->
   <script type="text/javascript" src="assets/js/custom.js"></script>
     

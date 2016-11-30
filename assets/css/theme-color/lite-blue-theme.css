@@ -152,6 +152,16 @@ Author URI : http://www.markups.io/
 .instagram-feed .slick-dots li.slick-active button::before{
   color: #37c6f5
 }
+.branding-examples .slick-prev::before,
+.branding-examples .slick-next::before {
+  color: #37c6f5;  
+}
+.branding-examples .slick-dots li.slick-active button{
+  background-color: #37c6f5;
+}
+.branding-examples .slick-dots li.slick-active button::before{
+  color: #37c6f5
+}
 .comment-form .form-control:focus {
   border-color: #37c6f5;   
 } 
