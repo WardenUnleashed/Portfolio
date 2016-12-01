@@ -68,7 +68,7 @@
         <!-- End header content slider -->  
         <!-- Header btn area -->
         <div class="header-btn-area">
-          <a class="knowmore-btn" href="#about">WHAT I AM</a>
+          <a class="knowmore-btn" href="#about">WHO I AM</a>
           <a class="download-btn" href="#portfolio">WHAT I DO</a>
         </div>
       </div>
@@ -374,90 +374,51 @@
                         </div>
                         <div class="portfolio-detail">
 	                        <a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
-	                        <img src="assets/images/portfolio-img-big2.jpg" alt="img-2" />
-	                        <h2>Mobile Application 2</h2>
-	                        <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	                        <a href="#" class="view-project-btn">Live Demo</a>
+	                        <div class="project-information">
+	                        	<h2>Zeta Beta Tau Fraternity</h2>
+	                        	<div class="row">
+			                        <div class="col-md-6">
+			                        	<img src="assets/images/portfolio-img-big2.jpg" alt="img-1" />
+			                        	<h3>Projects and Documentation</h3>
+					                    <div class="project-links">
+						                    <a href="http://uwzbt.org" target="_blank" class="view-project-btn">Website</a>
+						                    <a href="assets/files/zbt/zbt-constitution.pdf" target="_blank" class="view-project-btn">Constitution</a>
+						                    <a href="assets/files/zbt/zbt-lease-agreement.pdf" target="_blank" class="view-project-btn">Lease Agreement</a>
+						                    <a href="assets/files/zbt/zbt-parking-contract.pdf" target="_blank" class="view-project-btn">Parking Contract</a>
+						                </div>	 
+			                        </div>
+			                        <div class="col-md-6">
+				                        <h3>Highlights</h3>
+										<ul class="project-highlights">
+				                        	<li>Managed budget of over $50,000 per quarter.</li>
+				                        	<li>Redesigned fraternity website.</li>
+											<li>Served as secretary of executive board for 2 years.</li>
+				                        	<li>Overhauled organizational documentation including: constitution, lease agreement, and parking contract.</li>
+			                       		</ul>
+					                    
+				                        <h3>Summary</h3>
+				                        <p>Zeta Beta Tau dedicates itself to <u>Intellectual Awareness, Social Responsibility, Integrity, and Brotherly Love.</u> It was these principles that attracted me to join its brotherhood. During my first two years, ZBT saw a sudden loss of upperclassmen due to circumstances out of our control. At this time, I stepped onto the executive board as secretary.</p>
+				                        <p>As secretary, I reduced ZBTs liability through contract and agreement restructuring, shaped house culture introducing policies conducive to our founding values, and led meetings, events, and programming to the benefit of ZBT's brotherhood.</p>
+
+				                        <p>Upon my graduation, ZBT was one of the best performers in academics out of all UW fraternities, promoted a mentality and culture that encouraged brothers to strive for excellence, and was in the process of restarting its annual philanthropy. ZBT also has a member count of around 60 brothers, the highest it’s been since its re-founding, and continues to grow every year.</p>                  
+			                        </div>
+			                    </div>
+
+		                    </div>
                         </div>
                      </div>
                    </div>
                  </div>
-                 <div class="single-portfolio">
-                   <div class="single-item">
-                     <img src="assets/images/portfolio-img-small3.jpg" alt="img">
-                     <div class="single-item-content">
-                        <div class="portfolio-social-icon">
-                           <a class="view-btn" href="#"><i class="fa fa-search-plus"></i></a>
-                        </div>
-                        <div class="portfolio-title">
-                          <h4>Tacoma Eats Case Study</h4>
-                        </div>
-                         <div class="portfolio-detail">
-	                        <a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
-	                        <img src="assets/images/portfolio-img-big3.jpg" alt="img-2" />
-	                        <h2>University League of Legends: A Documentary</h2>
-	                        <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	                        <a href="#" class="view-project-btn">Live Demo</a>
-                        </div>
-                     </div>
-                   </div>
-                 </div>
+                 
                  <div class="single-portfolio">
                    <div class="single-item">
                      <img src="assets/images/portfolio-img-small4.jpg" alt="img">
-                     <div class="single-item-content">
+                     <div class="single-item-content has-page">
                         <div class="portfolio-social-icon">
-                          <a class="view-btn" href="#"><i class="fa fa-search-plus"></i></a>
+                          <a class="view-btn" href="https://www.youtube.com/watch?v=feLIXyoDzz4"><i class="fa fa-search-plus"></i></a>
                         </div>
                         <div class="portfolio-title">
                           <h4>University League of Legends A Documentary</h4>
-                        </div>
-                        <div class="portfolio-detail">
-	                        <a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
-	                        <img src="assets/images/portfolio-img-big4.jpg" alt="img-2" />
-	                        <h2>Mobile Application</h2>
-	                        <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	                        <a href="#" class="view-project-btn">Live Demo</a>
-                        </div>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="single-portfolio">
-                   <div class="single-item">
-                     <img src="assets/images/portfolio-img-small5.jpg" alt="img">
-                     <div class="single-item-content">
-                        <div class="portfolio-social-icon">
-                          <a class="view-btn" href="#"><i class="fa fa-search-plus"></i></a>
-                        </div>
-                        <div class="portfolio-title">
-                          <h4>Riot Games 2014 Collegiate Summit</h4>
-                        </div>
-                        <div class="portfolio-detail">
-	                        <a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
-	                        <img src="assets/images/portfolio-img-big5.jpg" alt="img-5" />
-	                        <h2>Mobile Application</h2>
-	                        <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	                        <a href="#" class="view-project-btn">Live Demo</a>
-                        </div>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="single-portfolio">
-                   <div class="single-item">
-                     <img src="assets/images/portfolio-img-small6.jpg" alt="img">
-                     <div class="single-item-content">
-                        <div class="portfolio-social-icon">
-                          <a class="view-btn" href="#"><i class="fa fa-search-plus"></i></a>
-                        </div>
-                        <div class="portfolio-title">
-                          <h4>Zillow Hackathon 2015</h4>
-                        </div>
-                         <div class="portfolio-detail">
-	                        <a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
-	                        <img src="assets/images/portfolio-img-big6.jpg" alt="img-2" />
-	                        <h2>Mobile Application</h2>
-	                        <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	                        <a href="#" class="view-project-btn">Live Demo</a>
                         </div>
                      </div>
                    </div>
@@ -467,38 +428,12 @@
                      <img src="assets/images/portfolio-img-small7.jpg" alt="img">
                      <div class="single-item-content">
                         <div class="portfolio-social-icon">
-                         <a class="view-btn" href="#"><i class="fa fa-search-plus"></i></a>
+                         <a class="view-btn" href="http://demo.oneoverx.co/tastes-purple/"><i class="fa fa-search-plus"></i></a>
                         </div>
                         <div class="portfolio-title">
                           <h4>Purple Caster Minions Custom Wordpress Theme</h4>
                         </div>
-                         <div class="portfolio-detail">
-	                        <a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
-	                        <img src="assets/images/portfolio-img-big7.jpg" alt="img-2" />
-	                        <h2>Mobile Application</h2>
-	                        <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	                        <a href="#" class="view-project-btn">Live Demo</a>
-                        </div>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="single-portfolio">
-                   <div class="single-item">
-                     <img src="assets/images/portfolio-img-small8.jpg" alt="img">
-                     <div class="single-item-content">
-                        <div class="portfolio-social-icon">
-                           <a class="view-btn" href="#"><i class="fa fa-search-plus"></i></a>
-                        </div>
-                        <div class="portfolio-title">
-                          <h4>Project Management Proccess Overview</h4>
-                        </div>
-                         <div class="portfolio-detail">
-	                        <a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
-	                        <img src="assets/images/portfolio-img-big1.jpg" alt="img-1" />
-	                        <h2>Mobile Application 2</h2>
-	                        <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	                        <a href="#" class="view-project-btn">Live Demo</a>
-                        </div>
+
                      </div>
                    </div>
                  </div>
