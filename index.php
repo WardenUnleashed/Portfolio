@@ -92,7 +92,7 @@
           </button>
           <!-- LOGO -->     
 		  <!-- Image logo  -->
-           <a class="navbar-brand logo" href="index.html"><img src="assets/images/logo.jpg" alt="logo"></a> 
+           <a class="navbar-brand logo" href="index.php"><img src="assets/images/logo.jpg" alt="logo"></a> 
            <!-- Text logo  -->
 <!--            <a class="navbar-brand logo" href="index.html"><span>Rex</span></a>                      -->
         </div>
