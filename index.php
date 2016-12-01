@@ -555,7 +555,7 @@
             <div class="footer-top-area">             
                 <a class="footer-logo" href="#"><img src="assets/images/logo.jpg" alt="Logo"></a>              
               <div class="footer-social">
-                <a class="facebook" href="http://facebook.com/pwnsomeandrew"><span class="fa fa-facebook"></span></a>
+                <a class="facebook" href="http://facebook.com/wardenunleashed"><span class="fa fa-facebook"></span></a>
                 <a class="twitter" href="http://twitter.com/wardenunleashed"><span class="fa fa-twitter"></span></a>
                 <a class="youtube" href="http://youtube.com/wardenunleashed"><span class="fa fa-youtube"></span></a>
                 <a class="linkedin" href="http://linkedin.com/in/warden"><span class="fa fa-linkedin"></span></a>
