@@ -4,7 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta property="og:url" content="http://oneoverx.co/">
+    <meta property="og:title" content="One Over X | Personal website of Andrew Johnson">
+    <meta property="og:description" content="The Portfolio of Andrew Johnson. Andrew is a Seattle native with a passion for solving problems, eSports, and competition. He also works as a developer and analyst, having graduated from UW with a degree in mathematics.">
+    <meta property="og:image" content="http://oneoverx.co/assets/images/site-og-image.jpg">
     <title>One Over X: Website of Andrew Johnson</title>
     <meta name="description" content="The Portfolio of Andrew Johnson. Andrew is a Seattle native with a passion for solving problems, eSports, and competition."/>
     <!-- Favicon -->
