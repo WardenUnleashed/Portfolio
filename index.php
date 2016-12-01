@@ -174,7 +174,7 @@
                   <div class="title-area">
                     <h2 class="tittle">About <span>Andrew</span></h2>
                     <span class="tittle-line"></span>
-                    <p>A Seattle native and University of Washington graduate. Andrew Johnson is a difference-maker that utilizes a blend of technical and social skills to innovate, solve problems, and optimize processes. Andrew studied mathematics and focused his studies on optimization, computer programming, and linear algebra in order to develop a skillset to tackle even the most challenging situations.</p> 
+                    <p>A Seattle native and University of Washington graduate. Andrew Johnson is a difference-maker who utilizes a blend of technical and social skills to innovate, solve problems, and optimize processes. Andrew studied mathematics and focused his studies on optimization, computer programming, and linear algebra in order to develop a skillset to tackle even the most challenging situations.</p> 
 
                     <p>A natural leader, Andrew strives to make an impact wherever he goes. Andrew served as Secretary of Zeta Beta Tau and Vice President of eSports at PCM: UW League of Legends. Andrew later founded Washington eSports, UW’s 1st competitive eSports organization, and managed the League of Legends team that would later become a top 8 contender in the uLoL series.</p>
                     <p>At Washington eSports, Andrew developed brand, culture, and processes that reflected the values he hoped would be core to the organization; teamwork, passion, and resilience. Andrew’s work within collegiate eSports has been highlighted at Riot Game’s collegiate summit and featured in a collegiate eSports documentary.</p>          

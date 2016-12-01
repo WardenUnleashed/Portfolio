@@ -81,12 +81,13 @@ jQuery(function($){
 	jQuery('.testimonial-slider').slick({
 		dots: false,
 		infinite: true,
-		speed: 500,
+		speed: 300,
 		arrows:true, 
 		autoplay: true,     
       	slidesToShow: 1,
 		slide: 'div',		
-		cssEase: 'linear'
+		cssEase: 'linear',
+		autoplaySpeed: 30000
 	});
 
 	/* ----------------------------------------------------------- */
