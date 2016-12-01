@@ -1450,7 +1450,7 @@ display: flex;
 	color: #fff;
 	font-family: "Raleway",sans-serif;
 	font-size: 18px;
-	line-height: 35px;
+	line-height: 20px;
 	margin-top: 55px;
 	position: relative;
 }
@@ -2450,6 +2450,9 @@ img#headerbg {
 	.header-content {  
       padding: 70px;  
 	}
+	.cheap-hack{
+		margin-bottom:-12px;
+	}
 	.header-content h2 {
 	  font-size: 60px;
 	  line-height: 58px;  
@@ -2499,7 +2502,7 @@ img#headerbg {
 	  margin: 0 2px;	 
 	}
 	.single-service {
-	  padding: 45px 15px;  
+	  padding: 45px 0px;  
 	}
 	.single-service .service-title {	  
 	  font-size: 20px;	  
@@ -2515,7 +2518,7 @@ img#headerbg {
 	  font-size: 40px;
 	}
 	.single-counter .counter-count > p {	  
-	  font-size: 14px;	  
+	  font-size: 13.8px;	  
 	}
 	.single-from-blog .blog-title h2 {
 	  font-size: 25px;  
@@ -2632,7 +2635,7 @@ img#headerbg {
 	  padding: 0 100px;  
 	}
 	.single-portfolio {
-	  width: 30.8%;
+	  width: 22%;
 	}
 	.portfolio-social-icon {
   		padding: 85px 50px; 
@@ -2641,10 +2644,14 @@ img#headerbg {
 	  font-size: 13px; 
 	}
 	.counter-area {  
- 	 padding: 90px 0;  
+ 	 padding: 50px 0;  
 	}
 	.single-counter {  
-	  margin-bottom: 35px;  
+	  margin-bottom: 35px;
+	  padding:0 50px;  
+	}
+	.testimonial-area{
+		padding-top:60px;
 	}
 	.single-price .price-amount {  
   		font-size: 25px;  
@@ -2858,6 +2865,32 @@ img#headerbg {
 }
 
 @media(max-width:480px ){
+	.testimonial-conten{
+		margin-top:0;
+		padding:0;
+	}
+	.testimonial-area{
+		margin-top:10px;
+		padding-top:0px;
+	}
+	.tittle{
+		margin-top:20px;
+	}
+	.title-area{
+		padding:0;
+	}
+	.about-left img{
+		height:290px;
+	}
+	.about-left{
+		height:290px;
+	}
+	.call-to-content h2{
+		padding-bottom:0;
+	}
+	.call-to-content a{
+		margin-top:0;
+	}
 	.header-content {
 	  padding: 20px;
 	}
@@ -2956,11 +2989,11 @@ img#headerbg {
 	  font-size: 10px;	
 	}
 	.single-slide {
-	  padding: 0 100px;  
+	  padding: 0 35px;  
 	}
 	.single-slide > p {
-	  font-size: 14px;
-	  line-height: 26px;
+	  font-size: 12px;
+	  line-height: 22px;
 	  margin-top: 20px;
 	}
 	.single-slide > p::after {

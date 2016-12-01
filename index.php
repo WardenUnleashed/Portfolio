@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Rex : Home</title>
+    <title>One Over X: Website of Andrew Johnson</title>
+    <meta name="description" content="The Portfolio of Andrew Johnson. Andrew is a Seattle native with a passion for solving problems, eSports, and competition."/>
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/icon" href="assets/images/favicon.ico"/>
     <!-- Font Awesome -->
@@ -97,7 +98,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul id="top-menu" class="nav navbar-nav main-nav menu-scroll">
-            <li class="active"><a href="index.html">Home</a></li>
+            <li class="active"><a href="index.php">Home</a></li>
             <li><a href="#about">ABOUT</a></li>                 
             <li><a href="#service">SKILLS</a></li> 
             <li><a href="#portfolio">PORTFOLIO</a></li>
@@ -227,7 +228,7 @@
                   <div class="single-service wow slideInUp">
                     <span class="fa fa-database service-icon"></span>
                     <h4 class="service-title">Data Mining</h4>
-                    <p>I dive into data and generate useful information using excel, R, and SQL to navigate data of all varients.</p><BR>
+                    <p class="cheap-hack">I dive into data and generate useful information using excel, R, and SQL to navigate data of all shapes and sizes quickly and accurately.</p>
                   </div>
                 </li>
                 <li class="col-md-3 col-sm-6">
@@ -241,35 +242,35 @@
                   <div class="single-service wow slideInUp">
                     <span class="fa fa-percent service-icon"></span>
                     <h4 class="service-title">Stats &amp; Probability</h4>
-                    <p>I measure data for reliability and analyze the likeliness of future outcomes using insights generated from available data.</p>
+                    <p>I measure data for reliability and analyze future outcomes using insights generated from available data.</p>
                   </div>
                 </li>
                 <li class="col-md-3 col-sm-6">
                   <div class="single-service wow slideInUp">
                     <span class="fa fa-terminal service-icon"></span>
                     <h4 class="service-title">Programming &amp; Scripting</h4>
-                    <p>By applying a proficiency in programming and scripting I solve problems requiring automation, analyze large amounts of data, and create processes improving applications.</p>
+                    <p>By applying programming and scripting I can automate proccesses, analyze large amounts of data, and create process improving applications.</p>
                   </div>
                 </li>
                 <li class="col-md-3 col-sm-6">
                   <div class="single-service wow slideInUp">
                     <span class="fa fa-bank service-icon"></span>
                     <h4 class="service-title">Financial Mathematics</h4>
-                    <p>I use financial mathematics to assess the viability and effectiveness of solutions and root them in a financial context to increase revenue and profitability.<BR><BR><p>
+                    <p>I use financial mathematics to assess the viability and effectiveness of solutions and root them in a financial context to increase revenue and profitability.</p>
                   </div>
                 </li>
                 <li class="col-md-3 col-sm-6">
                   <div class="single-service wow slideInUp">
                     <span class="fa fa-folder-open service-icon"></span>
                     <h4 class="service-title">Project Management</h4>
-                    <p>I'm AGILE and lead projects with a positive attitude, deploy techniques proven to increase efficiency, and deliver projects on-time and in scope.</p><BR>
+                    <p>I'm AGILE and lead projects with a positive attitude, deploy techniques proven to increase efficiency, and deliver projects on-time and in scope.</p>
                   </div>
                 </li>
                 <li class="col-md-3 col-sm-6">
                   <div class="single-service wow slideInUp">
                     <span class="fa fa-pencil service-icon"></span>
                     <h4 class="service-title">Technical Writing &amp; Documentation</h4>
-                    <p>I draft detailed and thorough documentation in order to record important take-aways, maintain complex processes, and improve productivity. </p><BR>
+                    <p>I draft detailed and thorough documentation in order to record important take-aways, maintain complex processes, and improve productivity.</p>
                   </div>
                 </li>
               </ul>
