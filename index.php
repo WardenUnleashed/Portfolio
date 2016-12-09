@@ -420,7 +420,7 @@
                      <img src="assets/images/portfolio-img-small4.jpg" alt="img">
                      <div class="single-item-content has-page">
                         <div class="portfolio-social-icon">
-                          <a class="view-btn" href="https://www.youtube.com/watch?v=feLIXyoDzz4"><i class="fa fa-search-plus"></i></a>
+                          <a class="view-btn" href="https://www.youtube.com/watch?v=feLIXyoDzz4" target="_blank"><i class="fa fa-search-plus"></i></a>
                         </div>
                         <div class="portfolio-title">
                           <h4>University League of Legends A Documentary</h4>
@@ -431,9 +431,9 @@
                  <div class="single-portfolio">
                    <div class="single-item">
                      <img src="assets/images/portfolio-img-small7.jpg" alt="img">
-                     <div class="single-item-content">
+                     <div class="single-item-content has-page">
                         <div class="portfolio-social-icon">
-                         <a class="view-btn" href="http://demo.oneoverx.co/tastes-purple/"><i class="fa fa-search-plus"></i></a>
+                         <a class="view-btn" href="http://demo.oneoverx.co/tastes-purple/" target="_blank"><i class="fa fa-search-plus"></i></a>
                         </div>
                         <div class="portfolio-title">
                           <h4>Purple Caster Minions Custom Wordpress Theme</h4>
